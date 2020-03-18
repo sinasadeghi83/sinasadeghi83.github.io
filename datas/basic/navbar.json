@@ -1,0 +1,15 @@
+{
+	"title": "navbarTitle",
+	"links": [
+		{
+			"title":"Home",
+			"mobileView":false,
+			"url":"./index.html"
+		},
+		{
+			"title": "Posts",
+			"mobileView": true,
+			"url": "./post"
+		}
+	]
+}

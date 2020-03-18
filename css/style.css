@@ -1,0 +1,25 @@
+/*
+* Main CSS Document
+*/
+.avatar{
+  vertical-align: center;
+  width:6vw;
+  height:6vw;
+  border-radius: 50%;
+}
+
+.profile{
+  padding-top: 50px;
+}
+
+.socialnetworks{
+  width:5%;
+}
+
+.main-contents{
+  width:60%;
+}
+
+.another-links{
+  width:30%;
+}

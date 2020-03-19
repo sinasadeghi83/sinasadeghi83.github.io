@@ -3,10 +3,10 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/fontawesome.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title id="headtitle" >Sina Sadeghi personal weblog!</title>
     <link id="headfavicon" rel="shortcut icon" href=""/>
     <script src="./js/main.js"></script>
@@ -18,13 +18,11 @@
         <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" id="mobilebutton">&#9776;</a>
       </div>
 
-      <div id="mobilemenu" class="w3-bar-block w3-red w3-hide w3-hide-large w3-hide-medium w3-card-2">
-        <h1 class="w3-padding-16"><a href="./index.html" class="w3-bar-item w3-right w3-hide-small" id="navtitle"></a><h1>
-        <a href="#" class="w3-bar-item w3-button">Link 1</a>
+      <div id="mobilemenu" class="w3-bar-block w3-teal w3-hide-large w3-hide-medium w3-card-2" style="display:none;">
       </div>
     </div>
 
-    <div class="w3-container w3-indigo w3-cell-row profile">
+    <div class="w3-container w3-indigo w3-cell-row profile w3-round-xxlarge">
       <div class="w3-cell">
         <img class="avatar w3-cell-center" src="./pics/avatar.jpg" alt="My Profile"/>
       </div>
@@ -34,21 +32,95 @@
       </div>
     </div>
 
-    <div class="w3-container">
-      <div class="w3-hide-medium w3-hide-small socialnetworks w3-card">
-        <p id="socialtitle" class="w3-opacity"></p>
-          <div id="imgnetworks">
+
+    <div class="w3-row-padding w3-margin">
+
+      <div class="w3-quarter" id="side-ads">
+
+        <div class="w3-card w3-margin-bottom">
+          <div class="w3-teal w3-container w3-padding-small">
+            <span class="w3-large">Search</span>
           </div>
+
+          <form method="GET" target="_blank" action="https://www.Google.com/search" class="w3-container" style="padding: 20px;">
+            <div class="w3-row-pading">
+              <div class="w3-threequarter">
+                <input type="text" name="q" placeholder="Search your desired text..." class="w3-input" />
+              </div>
+
+              <input type="hidden" name="q" value="site:sinasadeghi83.github.io"/>
+
+              <div class="w3-quarter">
+                <button type="submit" class="w3-button w3-teal">
+                  <i class="fa fa-search"></i>
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+
+        <div class="w3-card w3-hide-small">
+          <div class="w3-padding-large">
+            <img src="./pics/streetart2.jpg" alt="Einstein" class="w3-hover-opacity" style="width:100%;"/>
+
+            <div>
+              <h1 style="margin-bottom:0; padding-bottom:0;"><a href="#" class="w3-hover-text-teal" style="text-decoration:none; color:black;">Heading 1</a></h1>
+              <p class="w3-opacity" style="margin-top:8px; padding-top:0;">2020-3-19 12:00</p>
+            </div>
+
+            <div>
+              <p>This is content ...</p>
+            </div>
+
+            <div class="w3-padding-16">
+              <a href="#" class="w3-button w3-teal">Detail</a>
+            </div>
+          </div>
+       </div>
       </div>
 
-      <div class="w3-container w3-card main-contents" id="maincontents">
+      <div class="w3-half w3-card" id="main-content">
+        <div class="w3-padding-large">
+          <img src="./pics/streetart2.jpg" alt="Einstein" class="w3-hover-opacity" style="width:100%;"/>
+
+          <div>
+            <h1 style="margin-bottom:0; padding-bottom:0;"><a href="#" class="w3-hover-text-teal" style="text-decoration:none; color:black;">Heading 1</a></h1>
+            <p class="w3-opacity" style="margin-top:8px; padding-top:0;">2020-3-19 12:00</p>
+          </div>
+
+          <div>
+            <p>This is content ...</p>
+          </div>
+
+          <div class="w3-padding-16">
+            <a href="#" class="w3-button w3-teal">Detail</a>
+          </div>
+        </div>
       </div>
 
-      <div class="w3-container another-links" id="anotherlinks">
+      <div class="w3-quarter w3-padding" id="side-content">
+        <div class="w3-card">
+          <div class="w3-container w3-padding-small">
+            <span class="w3-large">Follow me on social networks</span>
+          </div>
+          <ul class="w3-ul w3-hoverable">
+            <a href="#" style="text-decoration:none;"><li class="w3-bar" style="border-bottom: 1px solid #ddd;">
+              <img src="./pics/instagram.png" class="avatar w3-bar-item"/>
+              <div>
+                <span class="w3-large">Instagram</span><br>
+                <span>SinaSadeghi83</span>
+              </div>
+            </li></a>
 
-      </div>
-
-      <div class="w3-card w3-hide-large main-contents">
+            <a href="#" style="text-decoration:none;"><li class="w3-bar">
+              <img src="./pics/telegram.png" class="avatar w3-bar-item"/>
+              <div>
+                <span class="w3-large">Telegram</span><br>
+                <span>SinaTechs</span>
+              </div>
+            </li></a>
+          </ul>
+        </div>
       </div>
     </div>
   </body>

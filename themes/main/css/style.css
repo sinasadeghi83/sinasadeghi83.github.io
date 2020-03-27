@@ -1,6 +1,15 @@
 /*
 * Main CSS Document
 */
+
+/* body{ */
+  /* background: url('../pics/background.jpg') center center no-repeat fixed; */
+/* } */
+
+.w3-card{
+  background: white;
+}
+
 .avatar{
   vertical-align: center;
   width:50px;

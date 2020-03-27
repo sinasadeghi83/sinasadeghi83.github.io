@@ -1,0 +1,21 @@
+<div class="w3-card w3-margin-bottom" id="search_box">
+  <div class="w3-teal w3-container w3-padding-small">
+    <span class="w3-large">$$heading</span>
+  </div>
+
+  <form method="GET" target="_blank" action="https://www.Google.com/search" class="w3-container" style="padding: 20px;">
+    <div class="w3-row-pading">
+      <div class="w3-threequarter">
+        <input type="text" name="q" placeholder="$$placeholder" class="w3-input" />
+      </div>
+
+      <input type="hidden" name="q" value="site:$$site_addr"/>
+
+      <div class="w3-quarter">
+        <button type="submit" class="w3-button w3-teal">
+          <i class="fa fa-search"></i>
+        </button>
+      </div>
+    </div>
+  </form>
+</div>

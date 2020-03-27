@@ -1,0 +1,14 @@
+{
+  "info":{
+    "name":"SinaSadeghi",
+    "description":"infoDescription",
+    "profilePic":"/basic/pics/avatar.png",
+  },
+  "socialNetworks":[
+    {
+      "title":"instagram",
+      "url":"https://instagram.com/sinasadeghi83",
+      "pic":"/basic/pics/instagram.png",
+    }
+  ]
+}

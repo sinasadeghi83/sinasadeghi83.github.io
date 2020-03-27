@@ -1,0 +1,19 @@
+{
+  "title":"title",
+  "theme":"main",
+  "themeColor":"w3-teal",
+  "secondThemeColor":"w3-indigo",
+  "lang":"en",
+  "modules":[
+  		{
+  			"title":"Home",
+  			"mobileView":false,
+  			"module":"",
+  		},
+  		{
+  			"title": "Posts",
+  			"mobileView": true,
+  			"module": "post"
+  		}
+  	]
+}

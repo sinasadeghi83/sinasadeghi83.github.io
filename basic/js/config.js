@@ -15,7 +15,7 @@ $(function(){
 function settingUp(data, status, xhr){
   messages = data;
   //Load theme
-  loadScript("/themes/" + configData.theme + "/js/setup.js", startMain);
+  loadScript("../../themes/" + configData.theme + "/js/setup.js", startMain);
 }
 
 function setupBasicTheme(){

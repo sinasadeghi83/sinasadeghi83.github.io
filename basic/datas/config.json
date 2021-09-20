@@ -8,7 +8,7 @@
   		{
   			"title":"Home",
   			"mobileView":false,
-  			"module":"",
+  			"module":""
   		},
   		{
   			"title": "Posts",
